@@ -1,0 +1,65 @@
+# Xcode
+
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode User Data
+
+xcuserdata/
+
+# Swift Package Manager
+
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+
+Pods/
+
+# Carthage
+
+Carthage/Build/
+
+# Fastlane
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Archives
+
+*.xcarchive
+
+# Temporary / generated files
+
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Environment / secrets
+
+.env
+.env.*
+!.env.example
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code (if applicable)
+
+.vscode/
+
+# User-specific Swift files
+
+*.swiftsourceinfo
+EOF
